@@ -1,3 +1,20 @@
+Package: akrex-kernel
+Version: 6.12.94-v8-16k+
+Architecture: arm64
+Maintainer: akrex-kernel <rex@linux.com>
+Provides: linux-image, linux-image-rpi-v8, linux-latest-modules-6.12.94+rpt-rpi-v8, linux-image-rpi-2712, linux-latest-modules-6.12.94+rpt-rpi-2712, raspberrypi-kernel, akrex-kernel, akrex-cm4-kernel, wireguard-modules (= 1.0.0)
+Conflicts: linux-image, linux-image-rpi-v8, linux-image-rpi-2712, raspberrypi-kernel, akrex-cm4-kernel
+Replaces: linux-image, linux-image-rpi-v8, linux-image-rpi-2712, raspberrypi-kernel, akrex-kernel, akrex-cm4-kernel
+Breaks: akrex-kernel
+Priority: 0
+Section: utils
+Filename: pool/main/a/akrex-kernel/akrex-kernel_6.12.94-v8-16k+_arm64.deb
+Size: 96008660
+SHA256: d18658a0db96e21ef6e5f8579cae769c0524702469b847581cc744021735a39c
+SHA1: b77cf349112d79f8209615b64b08a00ea06ab873
+MD5sum: bc07d5fdc43d3d7a64d0ecd8a77a11b3
+Description:  AK-Rex's kernel for devices with out of tree drivers.
+
 Package: carbon-computers-theme
 Version: 0.11
 Maintainer: carbon-computers-theme <rex@linux.com>
@@ -6,10 +23,10 @@ Replaces: rpd-plym-splash, raspberrypi-ui-mods, piwiz, rpd-common
 Priority: 0
 Section: utils
 Filename: pool/main/c/carbon-computers-theme/carbon-computers-theme_0.11_all.deb
-Size: 5041000
-SHA256: 8075e9e0a80648e9be1bd9f0a3fd591422669d5e4537da8fd606281ca2cdac56
-SHA1: 36b7683e85edf6cb0892653ea0dd7fb77af64a06
-MD5sum: 95aa4806a1d9b2b4418bc3fee5d79c73
+Size: 5042932
+SHA256: bc669b73cc9b9fea0cc5c5f9a3c0ce51c842a7150236fe4a3022a6196ce811ed
+SHA1: f1e11980098162d23358936de3f1e27022d7512c
+MD5sum: f0fddf7f9bb3541ab30bc4e56e488b32
 Description: carbon-computers-theme
  carbon-computers-theme provides wallpapers and boot splash
 
@@ -73,20 +90,19 @@ MD5sum: 5c257585c053aea19387be81cb396194
 Description: RaspberryPi firmware files.
 
 Package: clockworkpi-kernel
-Version: 6.12.93-v8-16k+
+Version: 6.12.94-v8-16k+
 Architecture: arm64
 Maintainer: clockworkpi-kernel <rex@linux.com>
-Provides: linux-image, linux-image-rpi-v8, linux-latest-modules-6.12.93+rpt-rpi-v8, linux-image-rpi-2712, linux-latest-modules-6.12.93+rpt-rpi-2712, raspberrypi-kernel, clockworkpi-cm4-kernel, wireguard-modules (= 1.0.0)
-Conflicts: linux-image, linux-image-rpi-v8, linux-image-rpi-2712, raspberrypi-kernel, clockworkpi-cm4-kernel
-Replaces: linux-image, linux-image-rpi-v8, linux-image-rpi-2712, raspberrypi-kernel, clockworkpi-cm4-kernel
+Depends: akrex-kernel
 Priority: 0
 Section: utils
-Filename: pool/main/c/clockworkpi-kernel/clockworkpi-kernel_6.12.93-v8-16k+_arm64.deb
-Size: 96347532
-SHA256: 34441887f4a7764c6f253a765e3cc6a20c84154bd1ae2f6ab5f378e40822c984
-SHA1: 2a5a967f5f558e0a4c0118ea5d19df690db3f4bf
-MD5sum: 197c6dddb944006fec521e0166819e1c
-Description:  This kernel includes the patches for ClockworkPi CM3/CM4/CM5 devices.
+Filename: pool/main/c/clockworkpi-kernel/clockworkpi-kernel_6.12.94-v8-16k+_arm64.deb
+Size: 752
+SHA256: 58a5f0adf32a4e70cac574aa5ea90b478b44383d652eca051cb8156508a93a5b
+SHA1: 214981425b8f2a6f8590a0fb286eaf3b3c090243
+MD5sum: 667c882c741e98e0721a60f33149d677
+Description: transitional dummy package
+ This is a transitional dummy package. It can safely be removed.
 
 Package: clockworkpi-theme
 Version: 0.15
