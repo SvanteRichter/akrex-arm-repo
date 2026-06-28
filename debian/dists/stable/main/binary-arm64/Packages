@@ -584,6 +584,22 @@ MD5sum: 2cd2696521a525fa237c170d0eecd6bc
 Description: pygpsclient
  This package installs and configures PYGPSClient for the uConsole with HackerGadgets RTL-SDR/LoRa/GPS/RTC/USBHUB All-In-One Extension Board.
 
+Package: rpi-firmware
+Version: 0.1
+Maintainer: rpi-firmware <rex@linux.com>
+Architecture: arm64
+Provides: raspi-firmware
+Conflicts: raspi-firmware
+Replaces: raspi-firmware
+Priority: 0
+Section: utils
+Filename: pool/main/r/rpi-firmware/rpi-firmware_0.1_arm64.deb
+Size: 4555692
+SHA256: afead27122322fc2a437c980b9dfee6e73071ea66ca5551079c231a0f6540bb3
+SHA1: 705df17f0ba3180e108cf3445dd1e81ffe9d822f
+MD5sum: 1e78c8f0e14894185b46587f0ea5c8b4
+Description: RaspberryPi firmware files.
+
 Package: rtl-sdr
 Version: 0.7.0~rtlsdrblog1
 Architecture: arm64
