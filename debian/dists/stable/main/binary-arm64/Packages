@@ -30,6 +30,20 @@ MD5sum: f0fddf7f9bb3541ab30bc4e56e488b32
 Description: carbon-computers-theme
  carbon-computers-theme provides wallpapers and boot splash
 
+Package: cardfetch
+Version: 0.1
+Maintainer: cardfetch <rex@linux.com>
+Architecture: arm64
+Provides: cardfetch
+Priority: 0
+Section: utils
+Filename: pool/main/c/cardfetch/cardfetch_0.1_arm64.deb
+Size: 11548
+SHA256: 8955284b7f8cf07b2ae09f00bab7c0dc5b5523aba60fa9a5337be3909781da0d
+SHA1: 820f973f584b5b693d10e8f093d5f303d1f4a2dd
+MD5sum: e13c2b9236fb3c98d72f3e50fdd99fef
+Description: A neofetch type info pane made for 320x170 displays
+
 Package: cardputer-dashboard
 Version: 0.1
 Maintainer: cardputer-dashboard <rex@linux.com>
@@ -52,10 +66,10 @@ Provides: cardputer-launcher-exit
 Priority: 0
 Section: utils
 Filename: pool/main/c/cardputer-launcher-exit/cardputer-launcher-exit_0.1_arm64.deb
-Size: 10760
-SHA256: a003c46fd720ef5b47b79a06107680d41b03cc4c2e431e9be4da91e388079a4a
-SHA1: c857a4133be6cbee1e5cb02e7593ededeb7e7930
-MD5sum: dccda71f990ea374176e0accc8424641
+Size: 10916
+SHA256: 5425e124d25ebf8d109c9bcc7eb919af6dee31c84f14f65f0b9dff4084038620
+SHA1: 501c52fb9d510acde8a298a24480a728264ed5c5
+MD5sum: 55e9d3d9f35e60fbc632526ed246c611
 Description: Shortcut to exit M5-launcher to real terminal.
 
 Package: clockworkpi-audio
