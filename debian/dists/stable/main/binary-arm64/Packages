@@ -9,10 +9,10 @@ Breaks: akrex-kernel
 Priority: 0
 Section: utils
 Filename: pool/main/a/akrex-kernel/akrex-kernel_6.12.94-v8-16k+_arm64.deb
-Size: 96008660
-SHA256: d18658a0db96e21ef6e5f8579cae769c0524702469b847581cc744021735a39c
-SHA1: b77cf349112d79f8209615b64b08a00ea06ab873
-MD5sum: bc07d5fdc43d3d7a64d0ecd8a77a11b3
+Size: 96054668
+SHA256: 678f7e438c143fa257e9c8a1599e7f510dbe3c287c6e5e849010bf0601830a71
+SHA1: 58e1e5d391bb5cb91a206c30f88a4107901952db
+MD5sum: a9473e92ec08dc4e9f291498b81cdf72
 Description:  AK-Rex's kernel for devices with out of tree drivers.
 
 Package: carbon-computers-theme
@@ -30,24 +30,33 @@ MD5sum: f0fddf7f9bb3541ab30bc4e56e488b32
 Description: carbon-computers-theme
  carbon-computers-theme provides wallpapers and boot splash
 
-Package: cardputerzero-pwnagotchi
-Version: 0.1.1-m5stack1
+Package: cardputer-dashboard
+Version: 0.1
+Maintainer: cardputer-dashboard <rex@linux.com>
 Architecture: arm64
-Maintainer: JdaieLin <hongruilin@alum.calarts.edu>
-Homepage: https://github.com/JdaieLin/cardputer-pwnagotchi
-Depends: sudo, python3, python3-pip, python3-pil, curl, git, fonts-noto-cjk, fonts-noto-color-emoji, binutils, iw, wireless-tools, rfkill, bettercap, bettercap-caplets, iptables
-Replaces: pwnagotchi-applaunch
-Breaks: pwnagotchi-applaunch
+Provides: cardputer-dashboard
 Priority: 0
 Section: utils
-Filename: pool/main/c/cardputerzero-pwnagotchi/cardputerzero-pwnagotchi_0.1.1-m5stack1_arm64.deb
-Size: 32801896
-SHA256: 0d4b2b0d2afe8fd048dc4058103f0ff4a2b3a364f5e968f6368a40f250b0a73e
-SHA1: 044c77567bdaa85d1eead467a734b0cd54cf3f37
-MD5sum: 3cdac931c2dbd7bd32c2836e217b90ed
-Description: Pwnagotchi monitor dashboard and controls for CardputerZero for M5Cardputer Zero
- Requires a monitor-mode capable external USB Wi-Fi adapter; the CM0 onboard
- Wi-Fi does not support monitor mode for Pwnagotchi capture.
+Filename: pool/main/c/cardputer-dashboard/cardputer-dashboard_0.1_arm64.deb
+Size: 10592
+SHA256: abbbdfb6217f1149c90d054b962d1b71911f25ed9920f15df581656dcae9827a
+SHA1: b5f02196d699c10a632759024a06a62f4271d12e
+MD5sum: 0a401ba65e0d8504da90d556d0c6700b
+Description: Dashboard for the CradPuter Zero when HDMI is plugged in.
+
+Package: cardputer-launcher-exit
+Version: 0.1
+Maintainer: cardputer-launcher-exit <rex@linux.com>
+Architecture: arm64
+Provides: cardputer-launcher-exit
+Priority: 0
+Section: utils
+Filename: pool/main/c/cardputer-launcher-exit/cardputer-launcher-exit_0.1_arm64.deb
+Size: 10760
+SHA256: a003c46fd720ef5b47b79a06107680d41b03cc4c2e431e9be4da91e388079a4a
+SHA1: c857a4133be6cbee1e5cb02e7593ededeb7e7930
+MD5sum: dccda71f990ea374176e0accc8424641
+Description: Shortcut to exit M5-launcher to real terminal.
 
 Package: clockworkpi-audio
 Version: 1.1
@@ -91,22 +100,6 @@ SHA1: 88f289f13aab03a4197c504799c7230db5cd37e1
 MD5sum: 961c9c985b27363d8641b7e4e251700f
 Description: clockworkpi-backlight
  clockworkpi-backlight turns the panel backlight on if the driver failed to do so.
-
-Package: clockworkpi-cm-firmware
-Version: 0.21
-Maintainer: clockworkpi-cm-firmware <rex@linux.com>
-Architecture: arm64
-Provides: raspi-firmware
-Conflicts: raspi-firmware
-Replaces: raspi-firmware
-Priority: 0
-Section: utils
-Filename: pool/main/c/clockworkpi-cm-firmware/clockworkpi-cm-firmware_0.21_arm64.deb
-Size: 4556100
-SHA256: 8bfbcd11363e59d3c84a45324d288c62c02afdb7dafd2012383912c5be0746bf
-SHA1: f79f8f5fa4afcb90e84b413dcae8d7faf8dd61c7
-MD5sum: 5c257585c053aea19387be81cb396194
-Description: RaspberryPi firmware files.
 
 Package: clockworkpi-kernel
 Version: 6.12.94-v8-16k+
