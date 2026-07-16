@@ -8,10 +8,10 @@ Replaces: linux-image, linux-image-rpi-v8, linux-image-rpi-2712, raspberrypi-ker
 Priority: 0
 Section: utils
 Filename: pool/main/a/akrex-kernel/akrex-kernel_6.12.95-v8-16k+_arm64.deb
-Size: 96099772
-SHA256: d68b3985685c0cb8b12df7054e3ed8652af21389062824a22c30e7f9534f9197
-SHA1: 088b0b1fb11e59ac65acbfed16b2c906c6e24f79
-MD5sum: 730558cce7307cba599eae2ab031bbfa
+Size: 96096108
+SHA256: fdc4deac050c0170df614e241841ca2d86660b5b2c807a2d25a65f9528c3a27b
+SHA1: 1d56cb43e2af9d76db1f2de3da604e1bf6b6ed4d
+MD5sum: 0a26bd265b5d5dff882bb5ad99ee8bc0
 Description:  AK-Rex's kernel for devices with out of tree drivers.
 
 Package: carbon-computers-theme
